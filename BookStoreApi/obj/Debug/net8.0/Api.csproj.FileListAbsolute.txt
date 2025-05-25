@@ -66,3 +66,4 @@ C:\Users\noamb\Desktop\InsureX - Angular - .Net\BookStoreApi\obj\Debug\net8.0\re
 C:\Users\noamb\Desktop\InsureX - Angular - .Net\BookStoreApi\obj\Debug\net8.0\Api.pdb
 C:\Users\noamb\Desktop\InsureX - Angular - .Net\BookStoreApi\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Users\noamb\Desktop\InsureX - Angular - .Net\BookStoreApi\obj\Debug\net8.0\ref\Api.dll
+C:\Users\noamb\Desktop\InsureX - Angular - .Net\BookStoreApi\obj\Debug\net8.0\Api.sourcelink.json
