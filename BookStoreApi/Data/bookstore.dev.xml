@@ -12,76 +12,45 @@
     <isbn>1234567890123</isbn>
     <title lang="en">The Dummy Book</title>
     <author>John Doe</author>
-    <author>Jojo</author>
+    <author>Noam</author>
     <author>Santi</author>
     <price>19.99</price>
     <year>2020</year>
   </book>
-  <book>
+  <book category="">
     <isbn>978-0140449136</isbn>
     <title lang="en">The Odyssey</title>
-    <authors>
-      <author>Homer</author>
-      <author>Robert Fagles</author>
-    </authors>
-    <category>Epic Poetry</category>
-    <year>1999</year>
     <price>10.99</price>
-    <cover>https://example.com/covers/odyssey.jpg</cover>
+    <year>1999</year>
   </book>
-  <book>
+  <book category="">
     <isbn>978-0061120084</isbn>
     <title lang="en">To Kill a Mockingbird</title>
-    <authors>
-      <author>Harper Lee</author>
-    </authors>
-    <category>Fiction</category>
-    <year>2006</year>
     <price>7.19</price>
-    <cover>https://example.com/covers/mockingbird.jpg</cover>
+    <year>2006</year>
   </book>
-  <book>
+  <book category="">
     <isbn>978-0439139601</isbn>
     <title lang="en">Harry Potter and the Goblet of Fire</title>
-    <authors>
-      <author>J.K. Rowling</author>
-    </authors>
-    <category>Fantasy</category>
-    <year>2002</year>
     <price>8.99</price>
-    <cover>https://example.com/covers/hp4.jpg</cover>
+    <year>2002</year>
   </book>
-  <book>
+  <book category="">
     <isbn>978-0307387899</isbn>
     <title lang="en">The Road</title>
-    <authors>
-      <author>Cormac McCarthy</author>
-    </authors>
-    <category>Post-Apocalyptic</category>
-    <year>2007</year>
     <price>9.99</price>
-    <cover>https://example.com/covers/theroad.jpg</cover>
+    <year>2007</year>
   </book>
-  <book>
+  <book category="">
     <isbn>978-0385472579</isbn>
     <title lang="en">Zen and the Art of Motorcycle Maintenance</title>
-    <authors>
-      <author>Robert M. Pirsig</author>
-    </authors>
-    <category>Philosophy</category>
-    <year>1999</year>
     <price>6.95</price>
-    <cover>https://example.com/covers/zenmotorcycle.jpg</cover>
+    <year>1999</year>
   </book>
-  <book>
+  <book category="">
     <isbn>978-0451524935</isbn>
     <title lang="en">1984</title>
-    <authors>
-      <author>George Orwell</author>
-    </authors>
-    <category>Dystopian</category>
-    <year>1950</year>
     <price>5.99</price>
-    <cover>https://example.com/covers/1984.jpg</cover>
+    <year>1950</year>
   </book>
 </bookstore>
