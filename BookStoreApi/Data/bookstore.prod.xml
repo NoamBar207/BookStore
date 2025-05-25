@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <book category="1" cover="1">
+    <isbn>1</isbn>
+    <title lang="1">1</title>
+    <author>1</author>
+    <price>1</price>
+    <year>1</year>
+  </book>
+  <book category="22" cover="22">
+    <isbn>22</isbn>
+    <title lang="22">22</title>
+    <author>22</author>
+    <price>22</price>
+    <year>22</year>
+  </book>
+</bookstore>
