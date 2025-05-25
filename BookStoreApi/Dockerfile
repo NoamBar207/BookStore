@@ -1,16 +1,11 @@
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
-
-# Copy everything and build
-COPY . . 
-RUN dotnet publish Api.csproj -c Release -o out
+COPY . .
+RUN dotnet publish Api.csproj -c Release -o /app/publish
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
-COPY --from=build /app/out ./
-
-# Expose port
-EXPOSE 80
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "Api.dll"]
